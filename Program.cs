@@ -17,8 +17,9 @@ namespace LinkedListAssignment
             linkedList.Add(70);
             linkedList.Display();
             Console.WriteLine();
-            // linkedList.InsertAtPerticularPosition(2, 30);
-            //linkedList.Display();
+            linkedList.InsertAtPerticularPosition(2, 40);
+            linkedList.Display();
+            Console.WriteLine();
             //linkedList.popEnd();
             //linkedList.Display();
             linkedList.MsTest(30);
