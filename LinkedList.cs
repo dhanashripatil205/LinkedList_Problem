@@ -100,6 +100,18 @@ namespace LinkedListAssignment
 
         }
 
+        public void size()
+        {
+            Node temp = head;
+            int count = 0;
+            while (temp != null)
+            {
+                count++;
+                temp = temp.next;
+            }
+            Console.WriteLine("\nsize= " + count);
+        }
+
         public void MsTest(int x)
         {
             Node temp = head;
@@ -121,6 +133,8 @@ namespace LinkedListAssignment
 
 
         }
+
+
 
 
         public void Display()
