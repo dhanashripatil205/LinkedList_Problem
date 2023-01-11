@@ -76,6 +76,30 @@ namespace LinkedListAssignment
 
         }
 
+        public void popEnd()
+        {
+
+            if (head == null)
+            {
+                Console.Write("linkedlist is empty");
+                return;
+            }
+            else
+            {
+                Node temp = head;
+                while (temp.next.next != null)
+                {
+                    temp = temp.next;
+                }
+                if (temp.next.next == null)
+                {
+                    temp.next = null;
+                }
+                Console.WriteLine("\nThe linkedlist is modified");
+            }
+
+        }
+
 
         public void Display()
         {
