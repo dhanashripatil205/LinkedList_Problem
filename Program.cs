@@ -19,6 +19,8 @@ namespace LinkedListAssignment
 
             linkedList.InsertAtPerticularPosition(2, 30);
             linkedList.Display();
+            linkedList.pop();
+            linkedList.Display();
             Console.ReadLine();
 
         }
