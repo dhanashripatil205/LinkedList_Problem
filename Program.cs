@@ -17,13 +17,21 @@ namespace LinkedListAssignment
             linkedList.Add(70);
             linkedList.Display();
             Console.WriteLine();
-            linkedList.InsertAtPerticularPosition(2, 40);
+            linkedList.InsertAtPerticularPosition(2,40);
             linkedList.Display();
             Console.WriteLine();
             //linkedList.popEnd();
             //linkedList.Display();
             linkedList.MsTest(30);
             linkedList.Display();
+            Console.WriteLine();
+            linkedList.popEnd();
+            linkedList.Display();
+            linkedList.popEnd();
+            linkedList.Display();
+            linkedList.InsertAtPerticularPosition(2, 70);
+            linkedList.Display();
+            linkedList.size();
             Console.ReadLine();
         }
     }
