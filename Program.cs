@@ -13,13 +13,13 @@ namespace LinkedListAssignment
         {
             LinkedList linkedList = new LinkedList();
             linkedList.Add(56);
-            //linkedList.Add(30);
+            linkedList.Add(30);
             linkedList.Add(70);
             linkedList.Display();
 
-            linkedList.InsertAtPerticularPosition(2, 30);
-            linkedList.Display();
-            linkedList.pop();
+           // linkedList.InsertAtPerticularPosition(2, 30);
+           //linkedList.Display();
+            linkedList.popEnd();
             linkedList.Display();
             Console.ReadLine();
 
